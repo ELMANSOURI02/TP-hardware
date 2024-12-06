@@ -85,7 +85,7 @@ int main(int argc, char* argv[]) {
     MatrixInit(M2, n, p);
 
     // Perform matrix addition on CPU
-    MatrixAdd(M1, M2, Mout, n, p);
+    MatrixAdd(M1, M2, Mout, n, p);;
     MatrixMult(M1, M2, Mout2, n);
 
     // Allocate memory for matrices on GPU
